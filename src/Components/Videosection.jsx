@@ -12,7 +12,7 @@ import video9 from './Videos/v9.mp4'
 import video10 from './Videos/v10.mp4'
 import video11 from './Videos/v11.mp4'
 import bigcat from './images/Big-Cats1.jpg'
-import Shelly1 from './images/Shelly1.jpg'
+// import Shelly1 from './images/Shelly1.jpg'
 import mercer from './images/Mercer1.jpg'
 import p1 from './images/p1.webp'
 import hudson from './images/Hudson1.jpg'
@@ -26,7 +26,7 @@ import frantz from './images/Frantz1.jpg'
 function Videosection() {
   return (
     <div className="h-95 w-full bg-white px-4  flex items-center justify-between overflow-auto gap-4 sm:h-160 sm:w-full md:h-130 md:w-full lg:h-120 lg:w-full xl:h-140 xl:w-full">
-      <Videocard video={video1}  name='Shelley Throw' price='Rs. 22,100.00' image={Shelly1} />
+      <Videocard video={video1}  name='Shelley Throw' price='Rs. 22,100.00'  />
       <Videocard video={video2}  name='Bit Cats Mini Blanket' price='Rs. 12,400.00' image={bigcat}/>
       <Videocard video={video3}  name='Mercer Throw' price='Rs. 22,100.00' image={mercer}/>
       <Videocard video={video4}  name='Guarena Throw' price='Rs. 22,100.00' image={p1}/>
