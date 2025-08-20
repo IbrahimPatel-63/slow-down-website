@@ -1,6 +1,6 @@
 import React from 'react'
 
-import shelly1 from './images/shelly1.jpg'
+
 
 function Videocard({video,name,price,image}) {
   return (
