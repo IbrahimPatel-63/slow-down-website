@@ -3,7 +3,7 @@ import Upperline from "./Components/Upperline";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Seen from "./Components/Seen";
-import Brands from "./Components/brands";
+import Brands from "./Components/Brands";
 import Slow from "./Components/Slow";
 import Cardssection from "./Components/Cardssection";
 import Space from "./Components/Space";
