@@ -3,8 +3,8 @@ import heroimage from './images/hero1.webp'
 
 function Hero() {
   return (
-    <div className='h-[100vh] w-full bg-blue-500 md:flex md:flex-row-reverse md:h-[85vh]' >
-        <div className='h-[60%] w-full bg-red-400  md:h-full md:w-[50%]'>
+    <div className='h-[100vh] w-full bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 md:flex md:flex-row-reverse md:h-[85vh]' >
+        <div className='h-[60%] w-full  md:h-full md:w-[50%]'>
             <img src={heroimage} alt="hero-image" className='h-full w-full' loading='lazy' />
         </div>
         <div className='h-[40%] w-full bg-[#FFE4CF] pt-6 pl-4 md:h-full md:w-[50%] md:flex md:justify-center  md:flex-col md:pl-12 xl:pl-25 xl:pb-25  '>
