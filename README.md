@@ -15,6 +15,7 @@ This is my **Fully responsive website** that I cloned as part of my web developm
 - Tailwind CSS
 
 ## 🖼️ Live Demo
+[click here to view the live demo](https://slow-down-website-fncd.vercel.app/)
 
 
 ## 📝 what I Learned
