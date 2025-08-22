@@ -5,7 +5,7 @@ function Heroart() {
   return (
     <div className='h-screen w-full md:h-[85vh]  md:flex'>
         <div className='h-[60%] w-full md:h-full md:w-[50%] '>
-            <img className='h-full w-full object-fit' src={heroart} alt="" />
+            <img className='h-full w-full object-fit' src={heroart} alt="" loading='lazy' />
         </div>
         <div className='h-[40%] w-full bg-[#FAF1FF] pl-4 pt-8 md:h-full md:w-[50%] md:flex md:justify-center md:items-left md:flex-col md:px-12 md:pb-18 lg:px-18'>
             <h1 className='text-2xl font-black tracking-wider md:text-4xl md:w-70 md:leading-12 lg:w-90'>Calling All Artists</h1>
