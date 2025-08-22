@@ -18,7 +18,7 @@ function Videocard({video,name,price,image}) {
 
 
 
-        <video className='h-full w-full object-cover ' src={video} autoPlay muted loop></video>
+        <video className='h-full w-full object-cover ' src={video} autoPlay muted loop preload='none'></video>
        
       
     </div>
